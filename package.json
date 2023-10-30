@@ -1,0 +1,28 @@
+{
+  "name": "@cerberauth/renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable config for Renovate",
+  "scripts": {
+    "test": "renovate-config-validator",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerberauth/renovate-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cerberauth/renovate-config/issues"
+  },
+  "homepage": "https://github.com/cerberauth/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "36.109.4",
+    "standard-version": "9.5.0"
+  }
+}
