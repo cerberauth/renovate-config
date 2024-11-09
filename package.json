@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Shareable config for Renovate",
   "scripts": {
-    "test": "renovate-config-validator",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "test": "renovate-config-validator"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,6 @@
   },
   "homepage": "https://github.com/cerberauth/renovate-config#readme",
   "devDependencies": {
-    "renovate": "36.109.4",
-    "standard-version": "9.5.0"
+    "renovate": "39.8.0"
   }
 }
