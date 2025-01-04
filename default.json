@@ -21,14 +21,14 @@
                 "pin",
                 "digest"
             ],
-            "automerge": true
+            "automerge": false
         },
         {
             "matchUpdateTypes": [
                 "major"
             ],
             "stabilityDays": 2,
-            "automerge": true
+            "automerge": false
         },
         {
             "matchDepTypes": [
