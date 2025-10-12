@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/cerberauth/renovate-config#readme",
   "devDependencies": {
-    "renovate": "39.8.0"
+    "renovate": "41.146.0"
   }
 }
