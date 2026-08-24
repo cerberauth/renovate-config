@@ -5,11 +5,13 @@
         "group:allNonMajor",
         ":semanticCommits",
         ":combinePatchMinorReleases",
-        ":rebaseStalePrs",
-        ":prConcurrentLimit10",
         ":prHourlyLimit1",
         ":disableDependencyDashboard"
     ],
+    "schedule": [
+        "* * * * 0,6"
+    ],
+    "prConcurrentLimit": 5,
     "packageRules": [
         {
             "matchDepTypes": [
